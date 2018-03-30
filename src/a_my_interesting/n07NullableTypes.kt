@@ -1,5 +1,9 @@
-package i_introduction._7_Nullable_Types
+package a_my_interesting
 
+import i_introduction._7_Nullable_Types.Client
+import i_introduction._7_Nullable_Types.JavaCode7
+import i_introduction._7_Nullable_Types.Mailer
+import i_introduction._7_Nullable_Types.PersonalInfo
 import util.TODO
 import util.doc7
 

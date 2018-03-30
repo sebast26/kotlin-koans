@@ -1,4 +1,4 @@
-package i_introduction._8_Smart_Casts
+package a_my_interesting
 
 import util.TODO
 import util.doc8
@@ -15,12 +15,12 @@ fun eval(e: Expr): Int =
             is Sum -> eval(e.left) + eval(e.right)
         }
 
-fun todoTask8(expr: Expr): Nothing = TODO(
-    """
-        Task 8.
-        Complete the implementation of the 'eval' function above using smart casts and 'when' expression.
-        The 'JavaCode8.eval' method provides the similar functionality written in Java.
-    """,
-    documentation = doc8(),
-    references = { JavaCode8().eval(expr) })
+//fun todoTask8(expr: Expr): Nothing = TODO(
+//    """
+//        Task 8.
+//        Complete the implementation of the 'eval' function above using smart casts and 'when' expression.
+//        The 'JavaCode8.eval' method provides the similar functionality written in Java.
+//    """,
+//    documentation = doc8(),
+//    references = { JavaCode8().eval(expr) })
 

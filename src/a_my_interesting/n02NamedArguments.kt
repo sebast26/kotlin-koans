@@ -1,4 +1,4 @@
-package i_introduction._2_Named_Arguments
+package a_my_interesting
 
 import i_introduction._1_Java_To_Kotlin_Converter.task1
 import util.TODO
