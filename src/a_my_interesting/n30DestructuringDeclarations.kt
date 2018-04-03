@@ -1,16 +1,4 @@
-package iii_conventions.multiAssignemnt
-
-import a_my_interesting.MyDate
-import util.TODO
-import util.doc30
-
-fun todoTask30(): Nothing = TODO(
-    """
-        Task 30.
-        Read about destructuring declarations and make the following code compile by adding one 'data' modifier.
-    """,
-    documentation = doc30()
-)
+package a_my_interesting
 
 class MyDate(val year: Int, val month: Int, val dayOfMonth: Int)
 

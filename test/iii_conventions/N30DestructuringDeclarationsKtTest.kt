@@ -1,5 +1,6 @@
 package iii_conventions.multiAssignemnt
 
+import a_my_interesting.MyDate
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
