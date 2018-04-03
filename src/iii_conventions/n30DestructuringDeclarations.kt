@@ -1,5 +1,6 @@
 package iii_conventions.multiAssignemnt
 
+import i_introduction._5_String_Templates.month
 import util.TODO
 import util.doc30
 
@@ -14,9 +15,20 @@ fun todoTask30(): Nothing = TODO(
 class MyDate(val year: Int, val month: Int, val dayOfMonth: Int)
 
 fun isLeapDay(date: MyDate): Boolean {
-    todoTask30()
-//    val (year, month, dayOfMonth) = date
-//
-//    // 29 February of a leap year
-//    return year % 4 == 0 && month == 2 && dayOfMonth == 29
+    val (year, month, dayOfMonth) = date
+
+    // 29 February of a leap year
+    return year % 4 == 0 && month == 2 && dayOfMonth == 29
+}
+
+private operator fun MyDate.component3(): Int {
+    return dayOfMonth
+}
+
+private operator fun MyDate.component2(): Int {
+    return month
+}
+
+private operator fun MyDate.component1(): Int {
+    return year
 }
